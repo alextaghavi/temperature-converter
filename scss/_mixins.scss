@@ -1,0 +1,20 @@
+@mixin pad_mar($padding:null, $margin:null) {
+    padding   : $padding;
+    margin    : $margin;
+  }
+  
+@mixin fullSize($height:$full, $width:$full) {
+    height : $height;
+    width  : $width;
+  }
+
+@mixin flex($flex-direction:null, $justify-content:null, $align-items:null) {
+    display         : flex;
+    flex-direction  : $flex-direction;
+    justify-content : $justify-content;
+    align-items     : $align-items; 
+}
+
+
+
+  
